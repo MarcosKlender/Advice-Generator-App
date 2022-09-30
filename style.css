@@ -24,13 +24,13 @@ main {
   border-radius: 1rem;
 }
 
-.advice-id {
+#advice-id {
   color: var(--neon-green);
   letter-spacing: 0.5rem;
   margin-top: 3rem;
 }
 
-.advice-text {
+#advice-text {
   color: var(--light-cyan);
   text-align: center;
   font-weight: 600;
@@ -79,4 +79,14 @@ button:hover {
 .attribution a {
   color: var(--neon-green);
   text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  main {
+    width: 90vw;
+  }
+
+  hr {
+    width: 7rem;
+  }
 }
